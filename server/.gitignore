@@ -1,0 +1,14 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+# Database
+*.db
+
+#Uploads
+!uploads/
+uploads/**/*.png
+uploads/**/*.jpeg
+uploads/**/*.jpg
+uploads/**/*.mp4
+uploads/**/*.mkv

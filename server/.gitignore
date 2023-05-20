@@ -7,8 +7,8 @@ node_modules
 
 #Uploads
 !uploads/
-uploads/**/*.png
-uploads/**/*.jpeg
-uploads/**/*.jpg
-uploads/**/*.mp4
-uploads/**/*.mkv
+uploads/*.png
+uploads/*.jpeg
+uploads/*.jpg
+uploads/*.mp4
+uploads/*.mkv

@@ -27,7 +27,8 @@ export async function uploadRoutes(app: FastifyInstance) {
     }
 
     const fileId = randomUUID()
-    const extension = extname(upload.fieldname)
+    const extension = extname(upload.filename)
+    console.log('extension', extension)
 
     const fileName = fileId.concat(extension)
 
